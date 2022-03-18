@@ -145,7 +145,7 @@
 /* Splash (Intro) Screen */
 
 /* Uncomment this after | disables splash screen for easy edit */
-/* .intro{
+.intro{
   position: fixed;
   z-index: 1;
   left: 0;
@@ -154,7 +154,7 @@
   height: 100vh;
   background-color: #161616;
   transition: 1s;
-} */
+}
 /* Uncomment this after | disables splash screen for easy edit */
 .logo-header{
   position: absolute;
@@ -180,7 +180,7 @@
   -webkit-text-fill-color: transparent;
 }
 /* Uncomment this after | disables splash screen for easy edit */
-/* .logo.active{
+.logo.active{
   bottom: 0;
   opacity: 1;
   transition: ease-in-out 0.5s;
@@ -189,7 +189,7 @@
   bottom: 150px;
   opacity: 0;
   transition: ease-in-out 0.5s;
-}  */
+} 
 /* Uncomment this after | disables splash screen for easy edit */
 
 /* Mobile Splash Screen */
