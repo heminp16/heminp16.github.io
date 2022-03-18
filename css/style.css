@@ -1,4 +1,4 @@
-@import url("/font/font-awesome.min.css");
+/* @import url("/font/font-awesome.min.css"); */
 * {
   margin: 0;
   padding: 0;
@@ -68,8 +68,7 @@
   background: #ddf0ff;
   border-bottom: 1.8px solid #000000;
   box-shadow: 0px 0px 10px var(--clr-gray200);
-  padding: 0.45rem; 
-  /* len of navigation bar */
+  padding: 0.45rem; /* len of navigation bar */
   border-radius: var(--radius);
   display: grid;
   grid-template-columns: 6fr 6fr;
@@ -104,8 +103,7 @@
     background: #ddf0ff;
     border-bottom: 1.8px solid #000000;
     box-shadow: 0px 0px 10px var(--clr-gray200);
-    padding: 0.45rem; 
-    /* len of navigation bar */
+    padding: 0.45rem; /* len of navigation bar */
     border-radius: var(--radius);
     display: grid;
     /* grid-template-columns: 6fr 6fr; */
@@ -146,8 +144,8 @@
 /* ---------------------------------------------------------------------------------------------------------------------------------- */
 /* Splash (Intro) Screen */
 
-/* Uncomment this after */
-.intro{
+/* Uncomment this after | disables splash screen for easy edit */
+/* .intro{
   position: fixed;
   z-index: 1;
   left: 0;
@@ -156,7 +154,8 @@
   height: 100vh;
   background-color: #161616;
   transition: 1s;
-}
+} */
+/* Uncomment this after | disables splash screen for easy edit */
 .logo-header{
   position: absolute;
   top: 40%;
@@ -180,9 +179,8 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* Uncomment this after */
-
-.logo.active{
+/* Uncomment this after | disables splash screen for easy edit */
+/* .logo.active{
   bottom: 0;
   opacity: 1;
   transition: ease-in-out 0.5s;
@@ -191,7 +189,8 @@
   bottom: 150px;
   opacity: 0;
   transition: ease-in-out 0.5s;
-} 
+}  */
+/* Uncomment this after | disables splash screen for easy edit */
 
 /* Mobile Splash Screen */
 @media screen and (max-width: 1100px){
@@ -215,7 +214,6 @@
   } 
 }
 
-
 /* ---------------------------------------------------------------------------------------------------------------------------------- */
 /* Contact Links Credits: Matt Henley https://codepen.io/mattbhenley/pen/aRKmgR */
 .social-contacts {
@@ -233,13 +231,13 @@
   display: inline-block;
   margin: 0.15em;
   position: relative;
-  font-size: 1.2em;  /* Size of Logo */
+  font-size: 1.8em;  /* Size of Logo */
 }
 .social-icons i {
   color: #ffffff;
   position: absolute;
-  top: 21px;  /* Position of Logo on Circles */
-  left: 21px;  /* Position of Logo on Circles */
+  top: 16.5px;  /* Position of Logo on Circles */
+  left: 16.3px;  /* Position of Logo on Circles */
   transition: all 265ms ease-out;
   background-color: transparent;
 }
@@ -289,8 +287,8 @@
 .nav-socials i {
   color: #ffffff;
   position: absolute;
-  top: 9px;  /* Position of Logo on Circles */
-  left: 10.9px;  /* Position of Logo on Circles */
+  top: 10.25px;  /* Position of Logo on Circles */
+  left: 10.25px;  /* Position of Logo on Circles */
   transition: all 265ms ease-out;
   background-color: transparent;
 }
