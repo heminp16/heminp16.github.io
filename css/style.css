@@ -231,7 +231,7 @@
   display: inline-block;
   margin: 0.15em;
   position: relative;
-  font-size: 1.8em;  /* Size of Logo */
+  font-size: 1.7em;  /* Size of Logo */
 }
 .social-icons i {
   color: #ffffff;
@@ -261,9 +261,9 @@
   transition: all 265ms ease-in;
 }
 .social-icons a:hover i {
-  transform: scale(2.2);
-  -ms-transform: scale(2.2);
-  -webkit-transform: scale(2.2);
+  transform: scale(2);
+  -ms-transform: scale(2);
+  -webkit-transform: scale(2);
   color: #00b5f5;
   background: -webkit-linear-gradient(45deg, #00b5f5, #002a8f);
   -webkit-background-clip: text;
